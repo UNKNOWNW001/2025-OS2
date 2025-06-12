@@ -1,3 +1,6 @@
 ﻿// queue.cpp
 #include "queue.h"
-// 구현 예정
+extern "C" {
+    Queue* init(void);
+    void    release(Queue* queue);
+}//시그추가
