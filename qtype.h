@@ -1,4 +1,3 @@
-//qtype.h
 #ifndef QTYPE_H
 #define QTYPE_H
 
@@ -9,9 +8,9 @@ typedef int   Key;
 typedef void* Value;
 
 typedef struct {
-    Key       key;
-    Value     value;
-    size_t    value_size;
+    Key    key;
+    Value  value;
+    size_t value_size;
 } Item;
 
 typedef struct {
@@ -26,4 +25,4 @@ typedef struct node_t {
 
 typedef struct Queue Queue;
 
-#endif // QTYPE_H
+#endif
